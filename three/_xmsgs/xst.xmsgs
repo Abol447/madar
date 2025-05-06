@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"D:\three\threeTB.v" Line 40: Using initial value of <arg fmt="%s" index="1">A</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="new" >"D:\three\threeTB.v" Line 32: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\three\threeTB.v" Line 35: Assignment to <arg fmt="%s" index="1">G</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\three\threeTB.v" Line 36: Assignment to <arg fmt="%s" index="1">L</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\three\threeTB.v" Line 37: Assignment to <arg fmt="%s" index="1">E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\three\threeTB.v</arg>&quot; line <arg fmt="%d" index="2">32</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">_i000001</arg>&gt; of block &lt;<arg fmt="%s" index="4">threeBehave</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">threeTB</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\three\threeTB.v</arg>&quot; line <arg fmt="%s" index="2">32</arg>: Output port &lt;<arg fmt="%s" index="3">G</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">_i000001</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\three\threeTB.v</arg>&quot; line <arg fmt="%s" index="2">32</arg>: Output port &lt;<arg fmt="%s" index="3">L</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">_i000001</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\three\threeTB.v</arg>&quot; line <arg fmt="%s" index="2">32</arg>: Output port &lt;<arg fmt="%s" index="3">E</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">_i000001</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+
