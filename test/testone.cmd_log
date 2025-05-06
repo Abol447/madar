@@ -1,0 +1,37 @@
+xst -intstyle ise -ifn "D:/test/testone.xst" -ofn "D:/test/testone.syr" 
+xst -intstyle ise -ifn "D:/test/testone.xst" -ofn "D:/test/testone.syr" 
+xst -intstyle ise -ifn "D:/test/testone.xst" -ofn "D:/test/testone.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 testone.ngc testone.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o testone_map.ncd testone.ngd testone.pcf 
+par -w -intstyle ise -ol high -mt off testone_map.ncd testone.ncd testone.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml testone.twx testone.ncd -o testone.twr testone.pcf 
+xst -intstyle ise -ifn "D:/test/testone.xst" -ofn "D:/test/testone.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 testone.ngc testone.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o testone_map.ncd testone.ngd testone.pcf 
+par -w -intstyle ise -ol high -mt off testone_map.ncd testone.ncd testone.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml testone.twx testone.ncd -o testone.twr testone.pcf 
+xst -intstyle ise -ifn "D:/test/testone.xst" -ofn "D:/test/testone.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 testone.ngc testone.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o testone_map.ncd testone.ngd testone.pcf 
+par -w -intstyle ise -ol high -mt off testone_map.ncd testone.ncd testone.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml testone.twx testone.ncd -o testone.twr testone.pcf 
+xst -intstyle ise -ifn "D:/test/testone.xst" -ofn "D:/test/testone.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 testone.ngc testone.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o testone_map.ncd testone.ngd testone.pcf 
+par -w -intstyle ise -ol high -mt off testone_map.ncd testone.ncd testone.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml testone.twx testone.ncd -o testone.twr testone.pcf 
+xst -intstyle ise -ifn "D:/test/testone.xst" -ofn "D:/test/testone.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 testone.ngc testone.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o testone_map.ncd testone.ngd testone.pcf 
+par -w -intstyle ise -ol high -mt off testone_map.ncd testone.ncd testone.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml testone.twx testone.ncd -o testone.twr testone.pcf 
+xst -intstyle ise -ifn "D:/test/testone.xst" -ofn "D:/test/testone.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 testone.ngc testone.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o testone_map.ncd testone.ngd testone.pcf 
+par -w -intstyle ise -ol high -mt off testone_map.ncd testone.ncd testone.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml testone.twx testone.ncd -o testone.twr testone.pcf 
+xst -intstyle ise -ifn "D:/test/testone.xst" -ofn "D:/test/testone.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 testone.ngc testone.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o testone_map.ncd testone.ngd testone.pcf 
+par -w -intstyle ise -ol high -mt off testone_map.ncd testone.ncd testone.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml testone.twx testone.ncd -o testone.twr testone.pcf 
