@@ -22,13 +22,13 @@ module foureTB(
     );
 
 reg [3:0] A ; 
-reg [3:0] S;
+wire [4:0] S;
 reg [3:0] B;
 reg C;
-reg C4;
-reg v;
+wire C4;
+wire v;
 
-foureBehave(
+foureBehave d(
             .A(A),
             .B(B),
             .S(S),
@@ -40,14 +40,14 @@ foureBehave(
 initial
 begin 
 
-A = 4'd4;
-B = 4'd5;
+A = 4'b0010;
+B = 4'b0010;
 C = 1'b1;
 
-#50
+#100
 
-A = 4'd12;
-B = 4'd9;
+A = 4'b0010;
+B = 4'b0011;
 C = 1'b1;
 
 end

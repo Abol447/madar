@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/foure/foureTB_isim_beh.exe" -prj "D:/foure/foureTB_beh.prj" "work.foureTB" "work.glbl" 

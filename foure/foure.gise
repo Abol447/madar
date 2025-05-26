@@ -29,9 +29,68 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="foureTB.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="foureTB.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="foureTB.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="foureTB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="foureTB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="foureTB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="foureTB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1748269889" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1748269889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748270315" xil_pn:in_ck="-70995426685163477" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1748270315">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="foureBehave.v"/>
+      <outfile xil_pn:name="foureTB.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1748269889" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="6196420136584962862" xil_pn:start_ts="1748269889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748269889" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="426239042984613612" xil_pn:start_ts="1748269889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748269889" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-3355744144797187081" xil_pn:start_ts="1748269889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748270315" xil_pn:in_ck="-70995426685163477" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1748270315">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="foureBehave.v"/>
+      <outfile xil_pn:name="foureTB.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1748270316" xil_pn:in_ck="-70995426685163477" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8252671960465706971" xil_pn:start_ts="1748270315">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="foureTB_beh.prj"/>
+      <outfile xil_pn:name="foureTB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1748270316" xil_pn:in_ck="-722957638530369786" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6780663996559697502" xil_pn:start_ts="1748270316">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="foureTB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
 
 </generated_project>

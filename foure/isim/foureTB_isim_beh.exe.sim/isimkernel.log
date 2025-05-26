@@ -1,0 +1,28 @@
+Command line:
+   foureTB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51268
+
+Mon May 26 18:08:37 2025
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5155.73 Meg
+
+ Total Signals          : 22
+ Total Nets             : 29
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 118
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 4998.44 Meg
+
+Mon May 26 18:10:36 2025
+
