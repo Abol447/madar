@@ -26,7 +26,7 @@ reg [3:0] B ;
 reg E ; 
 reg S ;
 
-twobehave(
+twoBehave d(
           .A(A),
           .B(B),
           .E(E),

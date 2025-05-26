@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2025-04-22T07:59:52</DateModified>
+  <DateModified>2025-05-26T19:07:36</DateModified>
   <ModuleName>twoTB</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>D:/two/iseconfig/twoTB.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/two</ImplementationReportsDirectory>
-  <DateInitialized>2025-04-22T07:59:52</DateInitialized>
+  <ImplementationReportsDirectory>D:/two\</ImplementationReportsDirectory>
+  <DateInitialized>2025-05-26T19:07:36</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>
