@@ -29,7 +29,7 @@ module threeTB(
    wire L;
    wire E;
 
-threeBehave(
+threeBehave d(
             .A(A),
             .B(B),
             .G(G),
