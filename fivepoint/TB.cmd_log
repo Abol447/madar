@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/fivepoint/TB.xst" -ofn "D:/fivepoint/TB.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 TB.ngc TB.ngd  
