@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/User/Desktop/t/tb.xst" -ofn "C:/Users/User/Desktop/t/tb.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 tb.ngc tb.ngd  
