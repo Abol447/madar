@@ -1,0 +1,28 @@
+Command line:
+   fiveTB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63142
+
+Mon May 26 18:58:27 2025
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5156.3 Meg
+
+ Total Signals          : 22
+ Total Nets             : 34
+ Total Signal Drivers   : 15
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 17
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 121
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 5470.87 Meg
+
+Mon May 26 18:59:00 2025
+

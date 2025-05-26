@@ -21,11 +21,11 @@
 module fiveTB();
 reg [2:0] A;
 reg [3:0] B;
-reg [4:0] C;
-reg C1;
-reg C2;
+wire [4:0] C;
+wire C1;
+wire C2;
 
-fiveBehave (
+fiveBehave d(
   .A(A),
   .B(B),
   .C(C),
@@ -34,7 +34,6 @@ fiveBehave (
 );
 
 initial
-
 begin
 
 A = 3'b010;
