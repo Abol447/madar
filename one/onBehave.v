@@ -26,6 +26,10 @@ module onBehave(
     output F1,
     output F2
     );
-    assign F2  = (~A & B) | D ;
-	 assign F1  = (A | B) | (D ^ (~B & c));
+    wire t1 ;
+	 wire t2;
+	 assign t2 = (~A & B);
+	 assign t1 = (~B & C);
+	 assign F2  = t2 | D ;
+	 assign F1  = (t1 | A ) | (t2 ^ D);
 endmodule

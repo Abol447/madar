@@ -23,9 +23,10 @@ module oneTB();
  reg  B ; 
  reg  C ;
  reg  D ; 
- reg F1;
- reg F2;
- onBehave(.A(A),
+ wire F1;
+ wire F2;
+ onBehave d(
+          .A(A),
           .B(B),
           .C(C),
           .D(D),
@@ -40,10 +41,10 @@ initial
      C = 1'b0;
      D = 1'b1;
      #100
-      A = 1'b0;
+      A = 1'b1;
       B = 1'b1;
       C = 1'b0;
-      D = 1'b1;
+      D = 1'b0;
   end
   
 endmodule
